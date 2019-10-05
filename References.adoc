@@ -1,0 +1,9 @@
+= Lost Colonies Larp: References
+Copyright - Torakand Adventures, LLC
+v0.9.5, November, 2019: Year Two
+:imagesdir: images
+:linkcss:
+:toc:
+
+include::../source/References.md[leveloffset=+1]
+

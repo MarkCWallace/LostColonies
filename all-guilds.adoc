@@ -1,0 +1,368 @@
+:imagesdir: images
+
+"Medicus Guild" [shape=rectangle]
+"Medicus Guild" -> { "Herbalism", "Physician" }
+
+"Herbalism" -> "Apprentice Herbalist I" -> "Apprentice Herbalist II" -> "Apprentice Herbalist III"
+  "Apprentice Herbalist II" -> "Herbalism Expert" -> "Master Herbalist"
+  "Apprentice Herbalist III" -> "Herbalism Experimenter" -> "Herbalism Innovator"
+
+"Physician" -> "First Aid"
+  "First Aid" -> "Apothecary" -> "Doctor"
+  "First Aid" -> { "Remove Poison", "Advanced Treatment", "Medicinal Remedies" }
+  { "Remove Poison", "Advanced Treatment", "Medicinal Remedies" } -> "Clinic" [ style="dashed" ]
+
+"Physician" -> "Expert Application" -> "Dissect" -> "Surgery"
+
+/* tag::medicus-header[]
+
+== Medicus Guild
+
+Members of the Medicus Guild are trained in all methods of healing and caring for people. Specifically, they are trained as physicians and herbalists.
+
+end::medicus-header[]
+
+tag::medicus-graph[]
+
+image::Medicus-graph.png[]
+
+end::medicus-graph[]
+
+tag::medicus-detailed[]
+
+=== First Aid
+
+include::all-skills.adoc[leveloffset=+1,tags=first-aid]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-treatment]
+include::all-skills.adoc[leveloffset=+1,tags=medicinal-remedies]
+include::all-skills.adoc[leveloffset=+1,tags=remove-poison]
+include::all-skills.adoc[leveloffset=+1,tags=apothecary]
+include::all-skills.adoc[leveloffset=+1,tags=clinic]
+include::all-skills.adoc[leveloffset=+1,tags=doctor]
+
+=== Surgery
+
+include::all-skills.adoc[leveloffset=+1,tags=expert-application]
+include::all-skills.adoc[leveloffset=+1,tags=dissect]
+include::all-skills.adoc[leveloffset=+1,tags=surgery]
+
+=== Herbalism 
+
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-i]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-ii]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-herbalist-iii]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-expert]
+include::all-skills.adoc[leveloffset=+1,tags=master-herbalist]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-experimenter]
+include::all-skills.adoc[leveloffset=+1,tags=herbalism-innovator]
+
+end::medicus-detailed[]
+*/
+
+
+
+
+
+
+"Ritualist Guild" [shape=rectangle]
+"Ritualist Guild" -> "Rituals" 
+
+"Rituals" -> "Initiate Rituals" -> "Adept Rituals" -> "Master Rituals"
+
+  "Master Rituals" -> "Initiate Thaumaturgist" [style=dashed]
+
+  "Initiate Thaumaturgist" -> "Adept Thaumaturgist" -> "Master Thaumaturgist"
+
+  "Adept Rituals" -> "Ritual Linking"
+  "Adept Rituals" -> "Ritual Quickening"
+  "Adept Rituals" -> "Ritual Empowerment"
+
+
+/* tag::ritualist-header[]
+
+== Ritualist Guild
+
+The Ritualist Guild studies the mystical and spiritual realms of the world.  These guild members can harness forces to bring about beneficial or harmful effects.
+
+end::ritualist-header[]
+
+tag::ritualist-graph[]
+
+image::Ritualist-graph.png[]
+
+end::ritualist-graph[]
+
+tag::ritualist-detailed[]
+
+=== Initiate Rituals 
+
+include::all-skills.adoc[leveloffset=+1,tags=initiate-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=initiate-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=initiate-spirit-rituals]
+
+=== Adept Rituals
+
+include::all-skills.adoc[leveloffset=+1,tags=adept-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=adept-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=adept-spirit-rituals]
+
+=== Master Rituals
+
+include::all-skills.adoc[leveloffset=+1,tags=master-binding-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=master-forces-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=master-spirit-rituals]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-linking]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-quickening]
+include::all-skills.adoc[leveloffset=+1,tags=ritual-empowerment]
+
+=== Thaumaturgist
+
+include::all-skills.adoc[leveloffset=+1,tags=initiate-thaumaturgist]
+include::all-skills.adoc[leveloffset=+1,tags=adept-thaumaturgist]
+include::all-skills.adoc[leveloffset=+1,tags=master-thaumaturgist]
+
+
+
+end::ritualist-detailed[]
+*/
+
+
+"Crafting Guild" [shape=rectangle]
+"Crafting Guild" -> { "Logistics", "Production", "Smithing", "Alchemy" }
+
+"Logistics" -> { "Cooking", "Fiber Arts", "Mining" }
+"Logistics" -> "Basic Logistics" -> "Advanced Logistics"
+  "Cooking" -> "Master Chef"
+  "Fiber Arts" -> "Master Weaver"
+
+"Production" -> "Basic Production" -> "Advanced Production" -> "Assembly Line"
+
+"Smithing" -> "Blacksmith" -> { "Weaponsmith", "Gunsmith", "Armorer", "Brightsmith" } 
+  { "Weaponsmith", "Gunsmith", "Armorer", "Brightsmith" } -> { "Heavy Engineering", "Artisan Smith" } -> "Master Smith" [ style=dashed ]
+
+"Alchemy" -> "Apprentice Alchemist I" -> "Apprentice Alchemist II" -> "Apprentice Alchemist III" 
+  "Apprentice Alchemist II" -> "Alchemical Expert" -> "Master Alchemist"
+  "Apprentice Alchemist III" -> "Alchemical Experimenter" -> "Alchemical Innovator"
+
+
+/* tag::crafting-header[]
+
+== Crafting Guild
+
+This guild makes weapons, armor, and tools. They are also responsible for repairing the wagons, buildings, or anything else that can be hammered back into shape.  
+
+end::crafting-header[]
+
+tag::crafting-graph[]
+
+image::Crafting-graph.png[]
+
+end::crafting-graph[]
+
+tag::crafting-detailed[]
+
+=== Smithing
+
+include::all-skills.adoc[leveloffset=+1,tags=blacksmith]
+include::all-skills.adoc[leveloffset=+1,tags=armorer]
+include::all-skills.adoc[leveloffset=+1,tags=gunsmith]
+include::all-skills.adoc[leveloffset=+1,tags=brightsmith]
+include::all-skills.adoc[leveloffset=+1,tags=weaponsmith]
+include::all-skills.adoc[leveloffset=+1,tags=heavy-engineering]
+include::all-skills.adoc[leveloffset=+1,tags=artisan-smith]
+include::all-skills.adoc[leveloffset=+1,tags=master-smith]
+
+=== Crafting
+
+include::all-skills.adoc[leveloffset=+1,tags=cooking]
+include::all-skills.adoc[leveloffset=+1,tags=master-chef]
+include::all-skills.adoc[leveloffset=+1,tags=fiber-arts]
+include::all-skills.adoc[leveloffset=+1,tags=master-weaver]
+
+=== Production 
+
+include::all-skills.adoc[leveloffset=+1,tags=basic-logistics]
+include::all-skills.adoc[leveloffset=+1,tags=basic-production]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-logistics]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-production]
+include::all-skills.adoc[leveloffset=+1,tags=assembly-line]
+
+=== Alchemy
+
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-i]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-ii]
+include::all-skills.adoc[leveloffset=+1,tags=apprentice-alchemist-iii]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-expert]
+include::all-skills.adoc[leveloffset=+1,tags=master-alchemist]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-experimenter]
+include::all-skills.adoc[leveloffset=+1,tags=alchemical-innovator]
+
+
+
+end::crafting-detailed[]
+*/
+
+
+
+"Explorers Guild" [shape=rectangle]
+"Explorers Guild" -> { "Scholar", "Survival" }
+
+"Survival" -> "Creature Handling" -> "Wilderness Survival"
+"Survival" -> "Trapping and Foraging" -> "Tracking and Alertness"
+"Survival" -> "Orienteering" -> "Dowsing" 
+"Survival" -> "Sneak" [style=invis]
+  "Orienteering" -> "Semaphores"
+
+"Scholar" -> "Cartography" -> "Specimen Collection"
+"Scholar" -> "Lore" -> "Research"
+  "Specimen Collection" -> "Archaeology" [ style=dashed ]
+  "Research" -> "Archaeology" [ style=dashed ]
+  "Research" -> "Ciphers" [ style=invis ]
+
+
+/* tag::explorers-header[]
+
+== Explorers Guild
+
+These intrepid adventurers forge their way into the world for the admiration and brilliance of discovery. They live by their measurements, maps, and drive for the unknown.  The world is theirs to explore.
+
+Explorers Guild members are also expected to seek out training from other guilds and are often seen training along side the Military Orders.
+
+
+end::explorers-header[]
+
+tag::explorers-graph[]
+
+image::Explorers-graph.png[]
+
+end::explorers-graph[]
+
+tag::explorers-detailed[]
+
+=== Exploration
+
+include::all-skills.adoc[leveloffset=+1,tags=cartography]
+include::all-skills.adoc[leveloffset=+1,tags=ciphers]
+include::all-skills.adoc[leveloffset=+1,tags=dowsing]
+include::all-skills.adoc[leveloffset=+1,tags=orienteering]
+include::all-skills.adoc[leveloffset=+1,tags=semaphores]
+
+=== Survival
+
+include::all-skills.adoc[leveloffset=+1,tags=creature-handling]
+include::all-skills.adoc[leveloffset=+1,tags=tracking-and-alertness]
+include::all-skills.adoc[leveloffset=+1,tags=trapping-and-foraging]
+include::all-skills.adoc[leveloffset=+1,tags=sneak]
+include::all-skills.adoc[leveloffset=+1,tags=wilderness-survival]
+
+end::explorers-detailed[]
+*/
+
+
+
+"Acquisitions Guild" [shape=rectangle]
+"Acquisitions Guild" -> { "Merchant", "Rogue" }
+
+"Merchant" -> "Commerce"
+"Merchant" -> "Import Export" -> "Smuggle"
+  "Commerce" -> "Inventory" -> "Tycoon"
+
+"Rogue" -> { "Sneak", "Sleight of Hand", "Devices", "Games", "Ciphers" }
+  "Sleight of Hand" -> "Devices" [ style=invis ]
+  "Rogue" -> "Games" -> "Sneak" -> "Ciphers" [ style=invis ]
+  
+  
+/* tag::acquisitions-header[]
+
+== Acquisitions Guild
+
+The Acquisitions Guild is focused on commerce and collection of treasures from the new world of Torakand.  The best of these treasures are shipped home to Sobukand to be sold to wealthy investors.  These patrons will, in return, fund the continuation and expansion of the Colony.  
+
+end::acquisitions-header[]
+
+tag::acquisitions-graph[]
+
+image::Acquisitions-graph.png[]
+
+end::acquisitions-graph[]
+
+tag::acquisitions-detailed[]
+
+=== Business
+
+include::all-skills.adoc[leveloffset=+1,tags=commerce]
+include::all-skills.adoc[leveloffset=+1,tags=import-export]
+include::all-skills.adoc[leveloffset=+1,tags=inventory]
+include::all-skills.adoc[leveloffset=+1,tags=smuggle]
+include::all-skills.adoc[leveloffset=+1,tags=tycoon]
+include::all-skills.adoc[leveloffset=+1,tags=ciphers]
+
+=== City Wise
+
+include::all-skills.adoc[leveloffset=+1,tags=games]
+include::all-skills.adoc[leveloffset=+1,tags=sleight-of-hand]
+include::all-skills.adoc[leveloffset=+1,tags=devices]
+include::all-skills.adoc[leveloffset=+1,tags=sneak]
+
+
+
+end::acquisitions-detailed[]
+*/
+
+
+
+"Military Orders" [shape=rectangle]
+"Military Orders" -> { "All Styles", "Formations", "Misc Military" }
+
+"Formations" -> "Inspire Courage" -> "Sergeant" -> "Captain"
+  "Sergeant" -> "Banner Bearer"
+"Misc Military" -> "Orienteering Military" -> "Semaphores"
+"Misc Military" -> "First Aid Military" -> "Advanced Treatment Military"
+
+/* tag::military-header[]
+
+== Military Orders
+
+The Military Orders protect and defend Flint and the expeditions.  They are generally armed with swords and shields or with polearms.  For every five members in a unit, at least one member will be armed with a long gun.  The guard are generally considered to be infantry and are capable of traveling over long distances.
+
+end::military-header[]
+
+tag::military-graph[]
+
+image::Military-graph.png[]
+
+end::military-graph[]
+
+tag::military-detailed[]
+
+=== Basic Training
+
+include::all-skills.adoc[leveloffset=+1,tags=orienteering]
+include::all-skills.adoc[leveloffset=+1,tags=semaphores]
+include::all-skills.adoc[leveloffset=+1,tags=first-aid]
+include::all-skills.adoc[leveloffset=+1,tags=advanced-treatment]
+
+=== Leadership
+
+include::all-skills.adoc[leveloffset=+1,tags=inspire-courage]
+include::all-skills.adoc[leveloffset=+1,tags=sergeant]
+include::all-skills.adoc[leveloffset=+1,tags=banner-bearer]
+include::all-skills.adoc[leveloffset=+1,tags=captain]
+
+include::choice-skills.adoc[leveloffset=+1,tag=strikes]
+
+include::choice-skills.adoc[leveloffset=+1,tag=basic-combat-style]
+
+include::choice-skills.adoc[leveloffset=+1,tag=advanced-combat-style]
+
+include::choice-skills.adoc[leveloffset=+1,tag=master-combat-skills]
+
+include::all-skills.adoc[leveloffset=+1,tags=armor-training]
+
+
+
+end::military-detailed[]
+*/
+
+
+

@@ -1,0 +1,10 @@
+= Lost Colonies Larp: Getting Started
+Copyright - Torakand Adventures, LLC
+v0.9.5, November, 2019: Year Two
+:imagesdir: ../images
+:linkcss:
+:toc:
+
+include::../source/Getting_Started.md[leveloffset=+1]
+
+

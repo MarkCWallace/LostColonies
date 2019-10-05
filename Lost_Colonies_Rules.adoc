@@ -1,0 +1,8 @@
+= Lost Colonies Larp: Lost Colonies Rules
+Copyright - Torakand Adventures, LLC
+v0.9.5, November, 2019: Year Two
+:imagesdir: images
+:toc:
+
+include::../config/Lost_Colonies_Rules.imd[leveloffset=+1]
+

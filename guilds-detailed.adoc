@@ -1,0 +1,72 @@
+= Lost Colonies Larp: Guilds
+Copyright - Torakand Adventures, LLC
+v0.9.3, May, 2019: Year Two
+:imagesdir: images
+:linkcss:
+
+== How to use this manual
+
+This manual is intended as a reference to help with character creation and character progression.  Each Guild is presented with a brief description, a graph that shows that Guild's skill progression, and then the full rules for each Skill that the Guild teaches.
+
+=== How to read the graphs
+
+Skill names are shown usually above the Attribute requirements needed to learn the skill. A Skill that has a solid line with an arrow leading to another Skill is a pre-requisite for that other Skill. A Skill that has a dashed line with an arrow leading to another Skill is one of a set of pre-requisites for the other Skill that you generally only need one of to qualify for the other Skill. Skills with no arrows leading into them only have Attribute requirements. 
+
+When a Skill has two rows of requirements under the name that represents variations. For example: Basic Combat Styles has different requirements for Melee Styles versus Ranged Styles.  For example: Initiate Binding Rituals is listed as "Initiate..." with "... Binding Rituals" under as one of the three options.  
+
+When in doubt the Text of the Skill takes precedence over the Graphic.
+
+Remember, characters are allowed to learn any skills they qualify for.
+
+== What is a guild?
+
+include::guilds.adoc[tags=preamble]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=acquisitions-header;acquisitions-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=acquisitions-detailed]
+
+
+<<<
+
+include::skills/all-guilds.adoc[tags=crafting-header;crafting-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=crafting-detailed]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=explorers-header;explorers-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=explorers-detailed]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=medicus-header;medicus-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=medicus-detailed]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=military-header;military-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=military-detailed]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=ritualist-header;ritualist-graph]
+
+<<<
+
+include::skills/all-guilds.adoc[tags=ritualist-detailed]

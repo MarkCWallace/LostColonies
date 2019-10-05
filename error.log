@@ -1,0 +1,23 @@
+asciidoctor: ERROR: Lost_Colonies_Rules.md: line 30: level 0 sections can only be used when doctype is book
+asciidoctor: ERROR: Lost_Colonies_Rules.md: line 241: level 0 sections can only be used when doctype is book
+asciidoctor: ERROR: Lost_Colonies_Rules.md: line 345: level 0 sections can only be used when doctype is book
+asciidoctor: ERROR: Lost_Colonies_Rules.md: line 445: level 0 sections can only be used when doctype is book
+/var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:641:in `match?': asciidoctor: FAILED: /mnt/c/Users/Mark/Dropbox/LCR/V0905/source/Lost_Colonies_Rules.md: Failed to load AsciiDoc document - invalid byte sequence in UTF-8 (ArgumentError)
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:641:in `next_block'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:369:in `next_section'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:354:in `next_section'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:354:in `next_section'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:359:in `next_section'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/parser.rb:98:in `parse'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/document.rb:570:in `parse'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor.rb:1367:in `load'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor.rb:1479:in `convert'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor.rb:1595:in `block in convert_file'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor.rb:1595:in `open'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor.rb:1595:in `convert_file'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/cli/invoker.rb:129:in `block in invoke!'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/cli/invoker.rb:112:in `each'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-1.5.8/lib/asciidoctor/cli/invoker.rb:112:in `invoke!'
+	from /var/lib/gems/2.5.0/gems/asciidoctor-pdf-1.5.0.alpha.16/bin/asciidoctor-pdf:31:in `<top (required)>'
+	from /usr/local/bin/asciidoctor-pdf:23:in `load'
+	from /usr/local/bin/asciidoctor-pdf:23:in `<main>'

@@ -1,0 +1,21 @@
+= My Document's Title 
+Doc Writer <mcw@markcwallace.net>
+v 0.1 2019-03-29
+:toc:
+
+include::changes.adoc[]
+
+This is a minimalist test document
+
+ifdef::Review[##]
+Lupini beans are a great snack
+ifdef::Review[##]
+
+include::chapter-04.adoc[]
+
+A bit salty though.
+I will need to drink
+
+Water would be good.
+
+Have figured out how to do include files

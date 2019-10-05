@@ -1,0 +1,155 @@
+tag::Broken[]
+* *Broken* - An item that is Broken cannot be used for any purpose.  If the item is held or worn and it is the target of any effect, that effect targets its posessor instead. Broken items can be repaired by a crafter with the appropriate recipe.
+end::Broken[]
+
+tag::Creature[]
+* *Creature* - Any of a variety of non-sentient life forms including wild animals, domesticated animals, and monsters of the non-intelligent variety.
+end::Creature[]
+
+tag::Damage[]
+* *Damage* - A single point of Damage removes one Hit Point from a character.
+end::Damage[]
+
+tag::Dead[]
+* *Dead* - A character that has seven Injury points is Dead. Dead characters must put on a Blue Headband as soon as possible.
+end::Dead[]
+
+tag::Director[]
+* *Director* - The Directors are the owners of Lost Colonies. They have the final authority on all decisions.
+end::Director[]
+
+tag::Disarm[]
+* *Disarm {X}* - You must drop the item held by the limb struck or the limb nearest to the point you were struck immediately and safely. If the attacker specifies an item, that item must instead be dropped.
+end::Disarm[]
+
+tag::Fear[]
+* *Fear* - When you are targeted by a Fear effect you gain the condition Intimidated. If you have been under the effects of Intimidated for at least 15 seconds, a second Fear effect will cause you to become Panicked. 
+end::Fear[]
+
+tag::Healthy[]
+* *Healthy* - A character is Healthy if they are at full Hit Points.
+end::Healthy[]
+
+tag::HP[]
+* *Hit Points* - A measure of how much health a character has.
+end::HP[]
+
+tag::Hold[]
+* *Hold* - A safety word used to immediately stop action for an important reason. Holds are explained fully later in this section.
+end::Hold[]
+
+tag::IG[]
+* *IG* - In Game
+end::IG[]
+
+tag::Incapacitated[]
+* *Incapacitated* - A character is Incapacitated if they have zero Hit Points left. Incapacitated characters may take no action other than to speak at a very low volume. Players of characters who become Incapacitated are to remain safe at all times. You should not close your eyes fully while Incapacitated. 
+end::Incapacitated[]
+
+tag::Intimidated[]
+* *Intimidated* - You may not take aggressive action against any source of Intimidation until this effect ends.  This effect ends after 15 seconds of time away from the source of the Intimidation or if the source of the Intimindation inflicts any damage on you.  Additionally you may spend a Mental Save to end its effects at any time.
+end::Intimidated[]
+
+tag::Injured[]
+* *Injured* - A character is Injured if they have taken any Injury points and not yet been to Traige to have them diagnosed. You must roleplay the effects of being Injured. This roleplay should be more severe than the roleplay from merely being Wounded.
+end::Injured[]
+
+tag::Marshal[]
+* *Marshal* - A player who has been approved by staff to make rules calls, supervise safety, and escalate issues to staff. Marshals are also players, and play player characters (PCs) at game
+end::Marshal[]
+
+tag::Mod[]
+* *Mod* - A scene, encounter, or set of scenes and encounters, set up by the Staff to challenge or entertain the Players
+end::Mod[]
+
+tag::Narration[]
+* *Narration* - When a scene is narrated, it is described rather than acted out. This tool may be employed for various reasons, such as safety, availability of resources, or if a player chooses to opt out of active roleplay for any reason. Narration should only be used when necessary, as immersive roleplay is always preferable.
+end::Narration[]
+
+tag::NPC[]
+* *Non Player Character (NPC)* - A Character that is portrayed by a Player, Marshal or Staff whose motivations are controlled by the Storyteller team. NPCs may only be portrayed at the specific request of the Storyteller team. 
+end::NPC[]
+
+tag::OOG[]
+* *OOG* - Out Of Game
+end::OOG[]
+
+tag::Panicked[]
+* *Panicked* - You may not take aggressive action against any source of Intimidation until this effect ends and you must make every attempt to keep a safe distance from them.  This effect converts back to Intimidated after 15 seconds of time away from the source of the Panic or if the source of the Panic inflicts any damage on you.  Additionally you may spend a Mental Save to convert this effect into Intimidated at any time.
+end::Panicked[]
+
+tag::Poisoned[]
+* *Poisoned* - If you are Poisoned you may not use Grit.  Additionally your time required to Rest is doubled. To have a Poison cured you must get evaluated at Triage and follow the directions you are given.
+end::Poisoned[]
+
+tag::PC[]
+* *Player Character (PC)* - A Character portrayed solely by a Player.
+end::PC[]
+
+tag::Player[]
+* *Player* - A person who attends our events
+end::Player[]
+
+tag::Rest[]
+* *Rest* - When a character takes time away from heavy activities they are said to be resting. The basic Rest time is 30 minutes.  After 30 minutes resting all of your "Once per Rest" skills become usable again. There are some skills that affect the amount of time required to rest.
+end::Rest[]
+
+tag::Repel[]
+* *Repel* - You are flung away and thrown 15 normal steps directly away from the attacker. You must finish this action as quickly as safety allows, do look behind you to ensure safety. If in this movement you would walk into terrain, object, or people that would make it unsafe, simply stop before the object and roleplay the impact accordingly and take the Stun effect. If and when you take the effect Repel, you must move, regardless of other debilitating effects you may be under or even if you are Prone.  If you are struck while performing the movement roleplay for the effect Repel, you do not take any damage or effect from said strikes.
+end::Repel[]
+
+tag::Scene[]
+* *Scene* - A single encounter or a short, self-contained set of actions such as a battle, a conversation, a negotiation, or a crafting session. Whenever there is a significant change in the action this is considered a change of scenes. Additionally, a marshal or staff member may call "scene" to indicate a scene change.
+end::Scene[]
+
+tag::Shove[]
+* *Shove* - You must move back two steps back or outside the attacker’s weapon range, whichever is farther.
+end::Shove[]
+
+tag::Sicken[]
+* *Sicken* - You may not be affected by Heal calls. This effect lasts until removed, when you perform a Rest, or is removed by spending a Grit.
+end::Sicken[]
+
+tag::Slow[]
+* *Slow* - You move at a 1 second count. This means you take at least one second between steps. This lasts until healed or until you spend 15 seconds recovering from the effect.
+end::Slow[]
+
+tag::Smash[]
+* *Smash {Limb}* - The limb struck or the limb nearest to the point you were struck becomes unusable. All items held in that arm must be dropped and the limb may not be used until the effect is removed.
+end::Smash[]
+
+tag::Staff[]
+* *Staff* - The directors and the storytellers of Lost Colonies Larp. They exclusively play as non-player characters (NPCs) and are present to support the story and community, but are still considered players.
+end::Staff[]
+
+tag::Stun[]
+* *Stun* - You are unable to move or speak for 15 seconds. You must RP as though you are dazed. If anyone strikes or touches you while you are Stunned the effect immediately ends.
+end::Stun[]
+
+tag::Sunder[]
+* *Sunder {Object}* - Your Weapon, Shield, or other held Object is Sundered. When this call is made the targeted item you are wielding in your hands, or the armor you are wearing, and its abilities become unusable. If you cannot drop the object safely (for example a shield is strapped too tightly, object is breakable) treat it as an exposed part of your person i.e. take any effects that strike it.
+end::Sunder[]
+
+tag::Trip[]
+* *Trip:* - You must immediately make contact with the ground with three limbs, ie two arms and one leg, two legs and one arm, etc. Do so in a safe manner. If you are unable to do this, simply take a knee to meet the requirements.
+end::Trip[]
+
+tag::Wounded[]
+* *Wounded* - A character is Wounded if they have taken some Hit Point Damage but still have Hit Points left. You must roleplay the effects of being Wounded. 
+end::Wounded[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
