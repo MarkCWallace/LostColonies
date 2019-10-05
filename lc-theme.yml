@@ -1,0 +1,53 @@
+page:
+  margin: [0.5in, 0.67in, 1in, 0.67in]
+  size: letter
+base:
+  font:
+    color: #212931
+    family: Helvetica
+    size: 10
+outline_list:
+  item_spacing: 2
+prose:
+  margin_bottom: 4
+heading:
+  font:
+    color: #212931
+    family: CaptainKidd
+  margin_top: 8
+  margin_bottom: 2
+title_page:
+  font:
+    color: #212931
+    family: CaptainKidd
+  title:
+    top: 60%
+    size: 34
+  logo:
+    top: 0%
+    image: "images/RulebookCover-v3.png"
+font:
+  catalog:
+    Guilford:
+      normal: GUILFORD.ttf
+      italic: GUILFORD.ttf
+      bold: GUILFORD.ttf
+      bold_italic: GUILFORD.ttf
+    CaptainKidd:
+      normal: CAPTKIDD_Lower.TTF
+      italic: CAPTKIDD_Italic.TTF
+      bold: CAPTKIDD_Lower.TTF
+      bold_italic: CAPTKIDD_Outline.TTF
+footer:
+  height: 0.75in
+  line_height: 1
+  recto:
+    right:
+      content: '{document-subtitle} | *{page-number}*'
+    left:
+      content: 'v{revnumber}, {docdate}'
+  verso:
+    left:
+      content: '*{page-number}* | {document-subtitle}'
+    right:
+      content: 'v{revnumber}, {docdate}'

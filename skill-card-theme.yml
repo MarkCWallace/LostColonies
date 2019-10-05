@@ -1,0 +1,40 @@
+page:
+  margin: [0.25in, 0.25in, 0.25in, 0.25in]
+  size: [3.5in, 2in]
+  background_image: "images/skill-card-background.png"
+base:
+  font:
+    color: #212931
+    family: Helvetica
+    size: 6
+  line_height_length: 6
+  line_height: $base_line_height_length / $base_font_size
+outline_list:
+  item_spacing: 1
+prose:
+  margin_bottom: 2
+heading:
+  font:
+    color: #212931
+    family: CaptainKidd
+  margin:
+    top: 0
+    bottom: 2
+heading_h2:
+  font_size: 16
+heading_h3:
+  font_size: 12
+heading_h4:
+  font_size: 8
+font:
+  catalog:
+    Guilford:
+      normal: GUILFORD.ttf
+      italic: GUILFORD.ttf
+      bold: GUILFORD.ttf
+      bold_italic: GUILFORD.ttf
+    CaptainKidd:
+      normal: CAPTKIDD_Lower.TTF
+      italic: CAPTKIDD_Italic.TTF
+      bold: CAPTKIDD_Lower.TTF
+      bold_italic: CAPTKIDD_Outline.TTF
